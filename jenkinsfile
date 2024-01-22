@@ -1,7 +1,7 @@
 pipeline {
     agent any
 
-    tools {nodejs "Node 18"}
+    tools {nodejs "nodejs"}
     environment {
         CHECKLY_API_KEY = credentials('checklyAPI')
         CHECKLY_ACCOUNT_ID = credentials('checkly-account-id')
