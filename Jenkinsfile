@@ -3,8 +3,8 @@ pipeline {
 
     tools {nodejs "nodejs"}
     environment {
-        CHECKLY_API_KEY = credentials('checkly')
-        CHECKLY_ACCOUNT_ID = credentials('checkly')
+        CHECKLY_API_KEY = credentials('cu_27dad56d5ac5434e85f0686e02628712')
+        CHECKLY_ACCOUNT_ID = credentials(' 1e3c47f2-28a0-455c-a2f8-ff209589821e')
         CHECKLY_TEST_ENVIRONMENT='production'
     }
 
